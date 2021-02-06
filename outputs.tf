@@ -8,4 +8,5 @@ output "deploy_ca_certifiate" {
 
 output "deploy_token" {
   value = data.kubernetes_secret.deploy.data.token
+  sensitive = true
 }
