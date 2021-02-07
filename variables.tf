@@ -5,5 +5,5 @@ variable "cluster_id" {
 
 variable "name" {
   type = string
-  default = "Namespace name"
+  description = "Namespace name"
 }
